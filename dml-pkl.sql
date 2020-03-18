@@ -1,10 +1,14 @@
 
 -- PROGRESSION 1:
-
+create table city(
+id number(11),
+name varchar(50)
+);
 --1. Insert into city
-
+ Insert into city(id,name)values(1,'india');
+ select * from city;
 --2. Insert into referee
-
+ insert into referee(id,name)values(2,'john');
 --3. Insert into innings
 
 --4. Insert into extra_type
